@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    /* background-color: #000000; */
+}
+
+header.hero-section {
+    background: url(/images/heroesShoes.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+header .heroe-content {
+    z-index: 2;
+    text-align: center;
+}
+
+header  h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+header p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-produtos {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section-produtos h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.grid-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-produto
+{
+    background-color: rgb(221, 100, 56);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    padding: 1rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    color: black;
+}
+
+.card-produto img {
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card-produto h3 {
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+.card-produto p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.botao-card
+{
+    background-color: black;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-style: none;
+    border-width: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.botao-card:hover
+{
+    cursor: pointer;
+   
+}
+
+.section-contato 
+{
+    background-color: rgb(221, 100, 56);
+    color: #000000;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section-contato h2
+{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.section-contato p
+{
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.contato-form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contato-form input
+{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #000000;
+    font-size: 1rem;
+    width: 300px;
+    padding: 0.8rem;
+}
+
+.form-btn
+{
+    background-color: black;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border-style: none;
+    border-width: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
+
+.form-btn:hover
+{
+    cursor: pointer;
+}
+
+footer
+{
+    /* background-color: rgb(204, 105, 69); */
+    border-top-style: solid;
+    border-top-width: 2px;
+    /* border-top-color: #000000; */
+    /* color: #000000; */
+    /* border-top-color: rgb(218, 109, 69); */
+    /* color: rgb(218, 109, 69); */
+    text-align: center;
+    padding: 1rem;
+    /* margin-top: 2rem; */
+
+}
+
+footer p {
+    margin: 0;
+}
+
+.detalhe-produto
+{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto-container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.produto-container-content
+{
+    display: flex;
+}
+
+.produto-infoAdicional-container
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.infoadd-conteiner
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 4rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top-color: rgb(221, 100, 56);
+    border-top-width: 100%;
+    border-top-style: solid;
+}
+
+.infoadd-label
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+.infoadd-label label {
+    text-align: left; /* Alinha o texto das labels à direita */
+    font-weight: 600;
+}
+
+.infoadd-label p {
+    text-align: left; /* Alinha o texto dos parágrafos à esquerda */
+    margin-left: 10px; /* Espaço entre a label e o parágrafo */
+}
+
+.produto-imagem
+{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.produto-imagem img
+{
+    max-width: 70%;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.produto-imagem img:hover {
+    transform: scale(1.1); /* Zoom ao passar o mouse */
+}
+
+.produto-info
+{
+    flex: 1;
+    padding-left: 1.5rem;
+}
+
+.produto-info h1
+{
+    font-size: 2rem;
+
+}
+
+.preco-produto
+{
+    font-size: 1.5rem;
+    /* color: rgb(218, 109, 69); */
+    margin: 1rem 0;
+}
+
+.desc-produto
+{
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.avaliacao-prod
+{
+    margin-bottom: 1rem;
+}
+
+.estrelas-avaliacao {
+    font-size: 1.2rem;
+    color: gold;
+}
+
+.ver-avaliacoes{
+    color: rgb(221, 100, 56);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tamanho-produto select
+{
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    border-color: rgb(221, 100, 56);
+    margin-bottom: 1rem;
+}
+
+.aval-conteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 4rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lista-avaliacoes
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-avaliacoes li
+{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(221, 100, 56);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista-avaliacoes .item-nome
+{
+    font-weight: bold;
+    color: rgb(221, 100, 56);
+}
+
+.lista-avaliacoes .item-data
+{
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.lista-avaliacoes .item-texto
+{
+    margin-top: 10px;
+}
+
+.btnFloatWpp
+{
+    position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    padding: 15px;
+}
+
+.btnFloatWpp:hover
+{
+    cursor: pointer;
+}
