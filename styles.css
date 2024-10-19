@@ -503,6 +503,14 @@ footer p {
         margin-bottom: 2rem;
     }
 
+    .product-container
+    {
+        padding: 0 0vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+
     .grid-produtos {
         display: flex;
         flex-direction: column;
