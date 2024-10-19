@@ -434,6 +434,18 @@ footer p {
 {
     margin-top: 10px;
 }
+@keyframes pulse 
+{
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
 
 .btnFloatWpp
 {
@@ -442,6 +454,7 @@ footer p {
     bottom: 10px;
     right: 10px;
     padding: 15px;
+    animation: pulse 2s infinite;
 }
 
 .btnFloatWpp:hover
