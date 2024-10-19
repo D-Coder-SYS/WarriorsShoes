@@ -529,6 +529,29 @@ footer p {
         border-radius: 10px;
         object-fit: cover;
     }
+
+    /* Tela de detalhes */
+    .produto-container-content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infoadd-conteiner
+    {
+        padding-left: 17px;
+        padding-right: 12px;
+        margin-top: 4rem;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .aval-conteiner
+    {
+        margin: 4rem 0 0 0;
+        padding: 0px 0;
+        gap: 2vh;
+    }
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
