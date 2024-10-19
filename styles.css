@@ -17,7 +17,7 @@ body {
 }
 
 header.hero-section {
-    background: url(/images/heroesShoes.png) no-repeat center center/cover;
+    background: url(./images/heroesShoes.png) no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -85,7 +85,7 @@ header p {
 
 .product-card 
 {
-    background-color: rgb(221, 100, 56);
+    background-color: rgb(228, 88, 37);
     border-radius: 10px;
     text-align: center;
     border-color: black;
@@ -148,7 +148,7 @@ header p {
 
 .card-produto
 {
-    background-color: rgb(221, 100, 56);
+    background-color: rgb(228, 88, 37);
     border-radius: 10px;
     text-align: center;
     max-width: 300px;
@@ -199,7 +199,7 @@ header p {
 
 .section-contato 
 {
-    background-color: rgb(221, 100, 56);
+    background-color: rgb(228, 88, 37);
     color: #000000;
     padding: 4rem 2rem;
     text-align: center;
@@ -318,7 +318,7 @@ footer p {
     margin-top: 4rem;
     margin-left: 50px;
     margin-right: 50px;
-    border-top-color: rgb(221, 100, 56);
+    border-top-color: rgb(228, 88, 37);
     border-top-width: 100%;
     border-top-style: solid;
 }
@@ -397,7 +397,7 @@ footer p {
 }
 
 .ver-avaliacoes{
-    color: rgb(221, 100, 56);
+    color: rgb(228, 88, 37);
     text-decoration: underline;
     cursor: pointer;
 }
@@ -407,7 +407,7 @@ footer p {
     padding: 0.5rem;
     margin-left: 0.5rem;
     font-size: 1rem;
-    border-color: rgb(221, 100, 56);
+    border-color: rgb(228, 88, 37);
     margin-bottom: 1rem;
 }
 
@@ -436,14 +436,14 @@ footer p {
     margin-bottom: 20px;
     padding: 20px;
     padding-bottom: 5px;
-    border-bottom: 2px solid rgb(221, 100, 56);
+    border-bottom: 2px solid rgb(228, 88, 37);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .lista-avaliacoes .item-nome
 {
     font-weight: bold;
-    color: rgb(221, 100, 56);
+    color: rgb(228, 88, 37);
 }
 
 .lista-avaliacoes .item-data
@@ -512,7 +512,7 @@ footer p {
 
     .card-produto
     {
-        background-color: rgb(221, 100, 56);
+        background-color: rgb(228, 88, 37);
         border-radius: 10px;
         text-align: center;
         max-width: 300px;
